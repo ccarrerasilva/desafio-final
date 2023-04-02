@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: o;
+  border: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #252525;
+}
+
+/* Navbar */
+
+.logo {
+  height: 35px;
+}
+
+/* Acerca de mi*/
+
+h3 {
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+#Acerca-de-mi h2 {
+  color: #00d0f4;
+  font-weight: 500;
+}
+
+#Acerca-de-mi p {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Mis trabajos*/
+
+#Mis-trabajos h2 {
+  color: #fff;
+  font-weight: 500;
+}
+
+#Mis-trabajos h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+#Mis-trabajos h5 {
+  color: #0f5fec;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#Mis-trabajos p {
+  color: #2d2d2d;
+  font-weight: 300;
+}
+
+.curso {
+  font-weight: 500;
+  color: #00d0f4;
+}
+
+/* Contacto */
+
+#Contacto h2 {
+  color: #00d0f4;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+#Contacto p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer i {
+  color: #42e3ff;
+  font-size: 3rem;
+}

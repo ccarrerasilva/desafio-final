@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos CS Diseñador</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="./assets/img/logo-ccs.png" alt="CCS logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#Acerca-de-mi"
+                  >Sobre mí</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Mis-trabajos">Mis Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-dark" href="#Contacto" role="button"
+                  >Contáctame</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/slide-1.jpg"
+              class="d-block w-100"
+              alt="Fondo Desafio CSS"
+            />
+            <div class="container">
+              <div class="container">
+                <div class="carousel-caption text-start mb-5">
+                  <h1>Soy Carlos Carrera Silva!</h1>
+                  <p>
+                    Diseñador Gráfico Profesional<br />Editorial, Digital y Web.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/slide-2.jpg"
+              class="d-block w-100"
+              alt="Fondo Desafio Posicionamiento"
+            />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Curso de Introducción al Desarrollo Web</h1>
+                <p>
+                  Te invito a conocer mi experiencia como estudiante de Desafío
+                  Latam.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#Mis-trabajos"
+                    >Mis Trabajos</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/slide-3.jpg"
+              class="d-block w-100"
+              alt="Fondo Desafio Cuppon"
+            />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Tienes una idea?</h1>
+                <p>
+                  Conversemos y trabajemos juntos ese proyecto que tienes en
+                  mente.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#Contacto"
+                    >Contáctame</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <section id="Acerca-de-mi" class="container text-center my-5 p-4">
+      <h2 class="display-5">Sobre mí</h2>
+      <h4>
+        Diseñador Gráfico y Licenciado en Diseño con más de 18 años de
+        experiencia, trabajando en distintas áreas como Editorial, Impresión,
+        Publicidad y Marketing Digital. En la actualidad Trabajando en Educación
+        Profesional de Ingeniería UC y estudiando Introducción al Desarrollo Web
+        en Desafío Latam.
+      </h4>
+    </section>
+
+    <section id="Mis-trabajos">
+      <div class="album py-5" style="background-color: #191919">
+        <div class="container text-center">
+          <h2 class="display-5 my-4 px-4">Mis Trabajos</h2>
+          <h4 class="my-4 mb-5 px-4">
+            Te invito a conocer parte del trabajo desarrollado en el<br /><span
+              class="curso"
+              >Curso de Introducción al Desarrollo Web de Desafío Latam.</span
+            >
+          </h4>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm border border-0">
+                <img
+                  src="./assets/img/trabajo-1.jpg"
+                  class="card-img-top"
+                  alt="Desafio CSS"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Desafío CSS</h5>
+                  <p class="card-text">
+                    Proyecto desarrollado en HTML y CSS. Se escoge el tema de
+                    ranking de 5 Futbolistas del mundo con breve reseña de cada
+                    uno de ellos.
+                  </p>
+                  <a
+                    href="https://ccarrerasilva.github.io/topfutbol/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary my-3"
+                    >Visita el sitio</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm border border-0">
+                <img
+                  src="./assets/img/trabajo-2.jpg"
+                  class="card-img-top"
+                  alt="Desafio Posicionamiento"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Desafío Posicionamiento</h5>
+                  <p class="card-text">
+                    En este proyecto se trabaja con CSS el posicionamiento de
+                    elementos con maqueta entregada en clases.
+                  </p>
+                  <a
+                    href="https://ccarrerasilva.github.io/iguana/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary my-3"
+                    >Visita el sitio</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm border border-0">
+                <img
+                  src="./assets/img/trabajo-3.jpg"
+                  class="card-img-top"
+                  alt="Desafio Cuppon"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mt-3">Desafío Bootstrap</h5>
+                  <p class="card-text">
+                    En este desafío se trabaja con framework Bootstrap en su
+                    versión 5.3 el que implica el desarrollo de un sitio de
+                    promociones.
+                  </p>
+                  <a
+                    href="https://ccarrerasilva.github.io/cuppon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary my-3"
+                    >Visita el sitio</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contacto" class="container p-5">
+      <h2 class="display-4 text-center my-4">Contáctame</h2>
+      <p class="text-center my-4 d-none d-md-block">
+        Completa el formulario de contacto y cuéntame sobre tu proyecto.
+        ¡Trabajemos juntos para hacer realidad tus ideas!
+      </p>
+      <form>
+        <div class="form-group mb-4">
+          <label class="mb-2">Nombre</label>
+          <input class="form-control" placeholder="Nombre" />
+        </div>
+
+        <div class="form-group mb-4">
+          <label class="mb-2">Correo electrónico</label>
+          <input class="form-control" placeholder="Correo electrónico" />
+        </div>
+
+        <div class="form-group">
+          <label class="mb-2">Mensaje</label>
+          <textarea
+            class="form-control"
+            placeholder="Escribe aquí tu mensaje"
+          ></textarea>
+        </div>
+
+        <div class="my-5 text-center">
+          <button class="btn btn-primary text-light">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="text-center text-light p-4" style="background-color: #000">
+      <p class="mb-0">
+        Carlos Carrera Silva 2023.<br />Todos los derechos reservados.
+      </p>
+      <div class="container my-3">
+        <a
+          href="https://github.com/ccarrerasilva"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-square-github mx-2"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/carloscarrerasilva/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin mx-2"></i
+        ></a>
+        <a
+          href="mailto:carloscarrerasilva@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-solid fa-square-envelope mx-2"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- Javascript Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
